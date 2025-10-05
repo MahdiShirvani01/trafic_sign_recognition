@@ -20,25 +20,25 @@ This project implements and compares multiple deep learning models for traffic s
 ## Project Structure
 traffic-sign-recognition/
 
-├── test.ipynb # Main training and evaluation notebook
+ test.ipynb
 
-├── requirements.txt # Python dependencies
+ requirements.txt
 
-├── report.pdf # Project documentation and results
+ report.pdf
 
-├── models/ # Saved model weights
+ models/ # Saved model weights
 
-│ ├── tinyresnet_best.pth
+   tinyresnet_best.pth
 
-│ └── simplecnn_best.pth
+   simplecnn_best.pth
 
-└── data/ # Dataset files
+ data/
 
-├── train.p
+  train.p
 
-├── valid.p
+  valid.p
 
-└── test.p
+  test.p
 
 ## Dataset
 
