@@ -19,15 +19,25 @@ This project implements and compares multiple deep learning models for traffic s
 
 ## Project Structure
 traffic-sign-recognition/
+
 ├── test.ipynb # Main training and evaluation notebook
+
 ├── requirements.txt # Python dependencies
+
 ├── report.pdf # Project documentation and results
+
 ├── models/ # Saved model weights
+
 │ ├── tinyresnet_best.pth
+
 │ └── simplecnn_best.pth
+
 └── data/ # Dataset files
+
 ├── train.p
+
 ├── valid.p
+
 └── test.p
 
 ## Dataset
@@ -62,6 +72,6 @@ The project uses the GTSRB dataset containing:
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/MahdiShirvani01/trafic_sign_recognition>
+git clone https://github.com/MahdiShirvani01/trafic_sign_recognition
 cd traffic-sign-recognition
 pip install -r requirements.txt
