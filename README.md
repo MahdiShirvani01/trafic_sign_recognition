@@ -75,3 +75,4 @@ The project uses the GTSRB dataset containing:
 git clone https://github.com/MahdiShirvani01/trafic_sign_recognition
 cd traffic-sign-recognition
 pip install -r requirements.txt
+python download_data.py
